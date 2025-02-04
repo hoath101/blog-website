@@ -17,15 +17,15 @@ const Blog = async () => {
 }`)
   return (
     <main>
-      <h1 className='text-center text-3xl font-semibold text-sky-950 mt-6 mb-4'>Welcome to Our Blog.</h1>
+      <h1 className='text-center text-3xl font-semibold text-sky-950 mt-6 mb-4'>Welcome to Our Blog&rsquo;</h1>
       <code className='absolute text-cyan-200 w-[600px] ml-10 mt-4 pr-4'>
-        We are excited to share inspiring stories, helpful tips, and insightful articles with you.
-        Whether you are here to learn something new, get inspired, or simply enjoy a good read, we have got you covered.
-        Here, you will find a range of topics from lifestyle and wellness to tech and travel, all crafted with your
-        interests in mind. Our goal is to create content that resonates with you and sparks meaningful conversations.
-        Stay tuned for our latest updates, and feel free to explore our archives. We cannot wait to share this journey with you.
+        We are excited to share inspiring stories&lsquo; helpful tips&lsquo; and insightful articles with you&rsquo;
+        Whether you are here to learn something new&lsquo; get inspired&lsquo; or simply enjoy a good read&lsquo; we have got you covered&rsquo;
+        Here&lsquo; you will find a range of topics from lifestyle and wellness to tech and travel&lsquo; all crafted with your
+        interests in mind&rsquo; Our goal is to create content that resonates with you and sparks meaningful conversations&rsquo;
+        Stay tuned for our latest updates&lsquo; and feel free to explore our archives&rsquo; We cannot wait to share this journey with you&rsquo;
         <p className='mt-4 w-[800px] text-center'>
-        Dont forget to subscribe to our newsletter for the latest posts delivered directly to your inbox.
+        Don&apos;t forget to subscribe to our newsletter for the latest posts delivered directly to your inbox&rsquo;
       </p>
       </code>
       <Image src="/images/blog-pic.jpg" alt="blog-pic" width={600} height={300}
