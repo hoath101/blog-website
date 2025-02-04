@@ -25,7 +25,7 @@ const Blog = async () => {
         interests in mind. Our goal is to create content that resonates with you and sparks meaningful conversations.
         Stay tuned for our latest updates, and feel free to explore our archives. We can’t wait to share this journey with you!
         <p className='mt-4 w-[800px] text-center'>
-        Don't forget to subscribe to our newsletter for the latest posts delivered directly to your inbox!
+        Don&apos;t forget to subscribe to our newsletter for the latest posts delivered directly to your inbox!
       </p>
       </code>
       <Image src="/images/blog-pic.jpg" alt='blog-pic' width={600} height={300}
