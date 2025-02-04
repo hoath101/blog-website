@@ -1,5 +1,5 @@
 
-export default {
+export const blog={
     name:"blog",
     title:"Blog",
     type:"document",
