@@ -17,18 +17,18 @@ const Blog = async () => {
 }`)
   return (
     <main>
-      <h1 className='text-center text-3xl font-semibold text-sky-950 mt-6 mb-4'>Welcome to Our Blog&rsquo;</h1>
+      <h1 className='text-center text-3xl font-semibold text-sky-950 mt-6 mb-4'>Welcome to Our Blog&period;</h1>
       <code className='absolute text-cyan-200 w-[600px] ml-10 mt-4 pr-4'>
-        We are excited to share inspiring stories&lsquo; helpful tips&lsquo; and insightful articles with you&rsquo;
-        Whether you are here to learn something new&lsquo; get inspired&lsquo; or simply enjoy a good read&lsquo; we have got you covered&rsquo;
-        Here&lsquo; you will find a range of topics from lifestyle and wellness to tech and travel&lsquo; all crafted with your
-        interests in mind&rsquo; Our goal is to create content that resonates with you and sparks meaningful conversations&rsquo;
-        Stay tuned for our latest updates&lsquo; and feel free to explore our archives&rsquo; We cannot wait to share this journey with you&rsquo;
+        We are excited to share inspiring stories&comma; helpful tips&comma; and insightful articles with you&period;
+        Whether you are here to learn something new&comma; get inspired&comma; or simply enjoy a good read&comma; we have got you covered&period;
+        Here&comma; you will find a range of topics from lifestyle and wellness to tech and travel&comma; all crafted with your
+        interests in mind&period; Our goal is to create content that resonates with you and sparks meaningful conversations&period;
+        Stay tuned for our latest updates&comma; and feel free to explore our archives&period; We cannot wait to share this journey with you&period;
         <p className='mt-4 w-[800px] text-center'>
-        Don&apos;t forget to subscribe to our newsletter for the latest posts delivered directly to your inbox&rsquo;
+        Don&apos;t forget to subscribe to our newsletter for the latest posts delivered directly to your inbox&period;
       </p>
       </code>
-      <Image src="/images/blog-pic.jpg" alt="blog-pic" width={600} height={300}
+      <Image src="/images/blog-pic.jpeg" alt="blog-pic" width={600} height={300}
         className='w-[1400px] h-[300px]'></Image>
         <hr className="mt-4 "/>
       <div className='grid ml-6 grid-cols-1 lg:grid-cols-3 gap-8 mt-5 lg:ml-16'>
