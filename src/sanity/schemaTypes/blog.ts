@@ -1,5 +1,5 @@
 
-export default Blog = {
+export default {
     name:"blog",
     title:"Blog",
     type:"document",
