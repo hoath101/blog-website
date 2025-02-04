@@ -16,7 +16,7 @@ const Blog = async () => {
     "imageUrl":image.asset->url
 }`)
   return (
-    <main className=''>
+    <main>
       <h1 className='text-center text-3xl font-semibold text-sky-950 mt-6 mb-4'>Welcome to Our Blog.</h1>
       <code className='absolute text-cyan-200 w-[600px] ml-10 mt-4 pr-4'>
         We are excited to share inspiring stories, helpful tips, and insightful articles with you.
@@ -25,13 +25,13 @@ const Blog = async () => {
         interests in mind. Our goal is to create content that resonates with you and sparks meaningful conversations.
         Stay tuned for our latest updates, and feel free to explore our archives. We cannot wait to share this journey with you.
         <p className='mt-4 w-[800px] text-center'>
-        Don&apos;t forget to subscribe to our newsletter for the latest posts delivered directly to your inbox.
+        Dont forget to subscribe to our newsletter for the latest posts delivered directly to your inbox.
       </p>
       </code>
-      <Image src="/images/blog-pic.jpg" alt='blog-pic' width={600} height={300}
+      <Image src="/images/blog-pic.jpg" alt="blog-pic" width={600} height={300}
         className='w-[1400px] h-[300px]'></Image>
         <hr className="mt-4 "/>
-      <div className='grid ml-6 grid-cols-2 lg:grid-cols-3 gap-8 mt-5 lg:ml-16'>
+      <div className='grid ml-6 grid-cols-1 lg:grid-cols-3 gap-8 mt-5 lg:ml-16'>
         {
           data.map((data, slug) => {
             return (
