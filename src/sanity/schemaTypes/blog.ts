@@ -1,5 +1,5 @@
 
-export const blog={
+const Blog = {
     name:"blog",
     title:"Blog",
     type:"document",
@@ -33,3 +33,4 @@ export const blog={
     },
 ]
 }
+export default Blog
